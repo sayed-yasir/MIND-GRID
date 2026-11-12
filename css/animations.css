@@ -1,0 +1,9 @@
+.pop{position:fixed;top:max(14px,env(safe-area-inset-top));left:50%;transform:translateX(-50%);z-index:20;min-width:230px;text-align:center;padding:12px 18px;border-radius:16px;color:#291b3b;background:linear-gradient(120deg,#ffe3a0,#d6a6ed);box-shadow:0 0 30px #ffd98a99;animation:pop 3.2s ease both}
+.pop b{display:block;font-size:16px}.pop small{font-size:12px}
+@keyframes pop{0%{opacity:0;transform:translate(-50%,-30px) scale(.9)}10%,85%{opacity:1;transform:translate(-50%,0) scale(1)}100%{opacity:0;transform:translate(-50%,-20px)}}
+.xpbar{height:10px;background:#0006;border-radius:9px;overflow:hidden}.xpbar i{display:block;height:100%;background:linear-gradient(90deg,#ffe3a0,#d6a6ed);transition:width .6s}
+.av{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}.av button{font-size:28px;padding:10px;border-radius:14px;border:1px solid #574b78;background:#2b2548}.av button.on{border-color:var(--gold);box-shadow:0 0 14px #ffd98a66}
+.navrow{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:16px}
+.ach{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #ffffff14}.ach.lock{opacity:.45}.ach .ic{font-size:28px}.ach small{display:block;color:var(--mut);line-height:1.7}
+.set small{display:block;color:var(--mut);font-size:11px}input[type=text]{background:#292348;color:inherit;border:1px solid #665783;border-radius:10px;padding:10px;font:inherit;width:100%}
+.reduce .pop{animation:none}
